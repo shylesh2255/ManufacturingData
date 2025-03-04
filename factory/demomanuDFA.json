@@ -1,9 +1,0 @@
-{
-	"name": "demomanuDFA",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "a8b3a3a7-14e3-4294-8d40-b00287fe87bb",
-		"tenantId": "0ef854d9-b367-45e6-bf60-9b44cb293f84"
-	}
-}
