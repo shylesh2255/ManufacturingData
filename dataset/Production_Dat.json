@@ -1,5 +1,5 @@
 {
-	"name": "Production_Data",
+	"name": "Production_Dat",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "Production_Data",
