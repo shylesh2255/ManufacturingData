@@ -1,0 +1,16 @@
+{
+	"name": "HttpMachine_Performance_Logs",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/shylesh2255/cricket-ball-manufacturing/raw/refs/heads/main/Machine_Performance_Logs.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime2",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
