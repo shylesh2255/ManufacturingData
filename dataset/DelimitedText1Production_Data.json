@@ -1,0 +1,23 @@
+{
+	"name": "DelimitedText1Production_Data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADFShProduction_Data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "raw_data_cricket",
+				"fileSystem": "cricket"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "Machine_Performance_Logs",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpMachine_Performance_Logs",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

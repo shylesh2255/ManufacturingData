@@ -1,0 +1,24 @@
+{
+	"name": "DelimitedMachine_Performance_Logs",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADFMachine_Performance_Logs",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Machine_Performance_Logs.csv",
+				"folderPath": "raw_data_cricket",
+				"fileSystem": "cricket"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
