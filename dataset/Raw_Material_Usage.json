@@ -1,0 +1,22 @@
+{
+	"name": "Raw_Material_Usage",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Raw_Material_Usage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://raw.githubusercontent.com/shylesh2255/cricket-ball-manufacturing/refs/heads/main/Raw_Material_Usage.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
