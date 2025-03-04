@@ -1,0 +1,22 @@
+{
+	"name": "Production_Data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Production_Data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://github.com/shylesh2255/cricket-ball-manufacturing/raw/refs/heads/main/Production_Data.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
