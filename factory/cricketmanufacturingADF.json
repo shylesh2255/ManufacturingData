@@ -1,0 +1,9 @@
+{
+	"name": "cricketmanufacturingADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cbf6b3de-e18b-4ee4-b653-5754f81dde84",
+		"tenantId": "0ef854d9-b367-45e6-bf60-9b44cb293f84"
+	}
+}
