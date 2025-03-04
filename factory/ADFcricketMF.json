@@ -1,0 +1,9 @@
+{
+	"name": "ADFcricketMF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6553e0d8-b208-4d41-917f-b74148725cd9",
+		"tenantId": "0ef854d9-b367-45e6-bf60-9b44cb293f84"
+	}
+}
