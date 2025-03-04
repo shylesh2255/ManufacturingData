@@ -1,0 +1,22 @@
+{
+	"name": "Quality_Control_Data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Quality_Control_Data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://raw.githubusercontent.com/shylesh2255/cricket-ball-manufacturing/refs/heads/main/Quality_Control_Data.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
