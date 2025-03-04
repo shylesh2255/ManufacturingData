@@ -2,14 +2,14 @@
 	"name": "Production_Data",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "Production_Data",
+			"referenceName": "productionstorage",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation"
+				"type": "AzureBlobFSLocation"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
